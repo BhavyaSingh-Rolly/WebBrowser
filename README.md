@@ -26,22 +26,22 @@ They can also swipe down to exit the table. While surfing the web, the search
 bar reflects the URL of the current page.
 
 1. Running Project :
-1.1 To run the app, open file Web Browser.xcodeproj in XCode and run the
+To run the app, open file Web Browser.xcodeproj in XCode and run the
 simulator on latest iOS using Command+R or Product -> Run in toolbar.
  
 2. Additional Features :
-2.1 The tab switch table shows the different tabs with their respective URLs
+The tab switch table shows the different tabs with their respective URLs
 and thumbnails. The thumbnails allow the user to preview each tab's content
 before switching to it.
  
 3. Product Approach :
-3.1 All of the buttons are on the same toolbar and mostly represented with
+All of the buttons are on the same toolbar and mostly represented with
 symbols, (i.e. plus, minus, ... ) to create a clean and organized UI.
 
-3.2 I chose to forgo storing and restoring each tab's history, due to time
+I chose to forgo storing and restoring each tab's history, due to time
 constraints.
 
-3.3 I implemented a tab switch with a table rather than collection view. Each
+I implemented a tab switch with a table rather than collection view. Each
 row of table view has only one cell. Thus, table view cells usually have
 greater width than collection view cells. This allows the user to see the
 most of the URL on a single line.
