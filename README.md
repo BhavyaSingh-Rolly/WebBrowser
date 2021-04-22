@@ -41,3 +41,14 @@ constraints. I implemented a tab switch with a table rather than collection view
 row of table view has only one cell. Thus, table view cells usually have
 greater width than collection view cells. This allows the user to see the
 most of the URL on a single line.
+
+
+Product Preview : 
+Defalut Page : 
+
+<img width="385" alt="image" src="https://user-images.githubusercontent.com/41166264/115752286-f1e1d400-a367-11eb-8d9e-b218df8638cb.png">
+
+Apple Page : 
+
+<img width="393" alt="image" src="https://user-images.githubusercontent.com/41166264/115752097-c828ad00-a367-11eb-823b-c58b89d1e797.png">
+
