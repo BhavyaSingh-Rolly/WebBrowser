@@ -36,12 +36,8 @@ before switching to it.
  
 3. Product Approach :
 All of the buttons are on the same toolbar and mostly represented with
-symbols, (i.e. plus, minus, ... ) to create a clean and organized UI.
-
-I chose to forgo storing and restoring each tab's history, due to time
-constraints.
-
-I implemented a tab switch with a table rather than collection view. Each
+symbols, (i.e. plus, minus, ... ) to create a clean and organized UI. I chose to forgo storing and restoring each tab's history, due to time
+constraints. I implemented a tab switch with a table rather than collection view. Each
 row of table view has only one cell. Thus, table view cells usually have
 greater width than collection view cells. This allows the user to see the
 most of the URL on a single line.
